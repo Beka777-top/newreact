@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://www.wjtv.com/wp-content/uploads/sites/72/2023/07/GettyImages-1204004509.jpg?w=2560&h=1440&crop=1") no-repeat center center;
+    background-size: cover;
+    color: #333;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 330px;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 16px;
+    margin: 5px;
+    transition: 0.3s;
+  }
+  
+  input:hover {
+    border-color: #007bff;
+    width: 310px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 330px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .car-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 330px;
+    text-align: center;
+  }
+  .kolesa-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    margin-left: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50rem;
+  }
